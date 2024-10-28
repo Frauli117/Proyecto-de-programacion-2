@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\RouteList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\RouteList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\RouteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\RouteNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\PointList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\PointList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\PointNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\PointNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PointNode.h",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.h",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\PointNode.h",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.h",
+              "RelativeToolTip": "Proyecto2 de progra\\PointNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-22T19:22:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PointNode.cpp",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.cpp",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\PointNode.cpp",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointNode.cpp",
+              "RelativeToolTip": "Proyecto2 de progra\\PointNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T15:23:39.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PointList.h",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.h",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\PointList.h",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.h",
+              "RelativeToolTip": "Proyecto2 de progra\\PointList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-22T19:25:24.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PointList.cpp",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.cpp",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\PointList.cpp",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\PointList.cpp",
+              "RelativeToolTip": "Proyecto2 de progra\\PointList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T15:33:09.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteNode.h",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.h",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\RouteNode.h",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.h",
+              "RelativeToolTip": "Proyecto2 de progra\\RouteNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T15:56:29.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteNode.cpp",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.cpp",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\RouteNode.cpp",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteNode.cpp",
+              "RelativeToolTip": "Proyecto2 de progra\\RouteNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T15:56:45.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteList.h",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.h",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\RouteList.h",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.h",
+              "RelativeToolTip": "Proyecto2 de progra\\RouteList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T16:01:23.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteList.cpp",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\RouteList.cpp",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp",
+              "RelativeToolTip": "Proyecto2 de progra\\RouteList.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAFEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T16:01:34.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp",
+              "RelativeDocumentMoniker": "Proyecto2 de progra\\main.cpp",
+              "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp",
+              "RelativeToolTip": "Proyecto2 de progra\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T19:17:08.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
