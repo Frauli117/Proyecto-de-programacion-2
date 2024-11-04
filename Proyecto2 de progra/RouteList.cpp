@@ -4,7 +4,7 @@ RouteList::RouteList() {
     this->head = nullptr;
 }
 
-void RouteList::insertRout(string name) {
+void RouteList::insertRoute(string name) {
     RouteNode* newNode = new RouteNode(name);
     if (head == nullptr) {
         head = newNode;
@@ -41,18 +41,20 @@ bool RouteList::isUniqueName(string name) { //Cambiar nombre
     return true;
 }
 
-void RouteList::insertPointToRoute(string name) {
-    RouteNode* current = head;
-    while (current != nullptr && current->getName() != name) {
-        current = current->getNext();
-    }
-    if (current != nullptr) {
-        string name;
-        cout << "Nombre del punto: ";
-        cin >> name;
-        if (isUniqueName(name)) {
-            current->getPointList().insertPoint(name, 50, 100);
+void RouteList::insertPointToRoute(const string& routeName, const string& pointName, int x, int y) {
+    RouteNode* route = this->searchRoute(routeName);
+    if (route != nullptr) {
+        // Validar que el nombre del punto sea único
+        if (route->getPointList().isRepeatedname(pointName)) {
+            route->getPointList().insertPoint(pointName, x, y);
+            cout << "Punto agregado: " << pointName << " en (" << x << ", " << y << ")" << endl;
         }
+        else {
+            cout << "No se pudo agregar el punto. El nombre ya existe en la ruta." << endl;
+        }
+    }
+    else {
+        cout << "No se pudo agregar el punto. La ruta no existe." << endl;
     }
 }
 
@@ -85,4 +87,8 @@ void RouteList::displayRoutes() {
         std::cout << current->getName() << ", ";
         current = current->getNext();
     }
+}
+
+RouteNode* RouteList::getHead() {
+    return head;
 }

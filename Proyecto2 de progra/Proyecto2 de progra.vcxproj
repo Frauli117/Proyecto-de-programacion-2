@@ -147,6 +147,7 @@ sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PointList.cpp" />
     <ClCompile Include="PointNode.cpp" />
@@ -154,6 +155,7 @@ sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="RouteNode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Graphics.h" />
     <ClInclude Include="PointList.h" />
     <ClInclude Include="PointNode.h" />
     <ClInclude Include="RouteList.h" />

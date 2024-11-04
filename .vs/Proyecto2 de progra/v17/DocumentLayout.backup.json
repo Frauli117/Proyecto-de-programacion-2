@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\RouteList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|solutionrelative:Proyecto2 de progra\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46DC74F0-ED32-4D3B-BFA3-8708774810D2}|Proyecto2 de progra\\Proyecto2 de progra.vcxproj|C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -134,25 +134,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RouteList.cpp",
               "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp",
               "RelativeDocumentMoniker": "Proyecto2 de progra\\RouteList.cpp",
               "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\RouteList.cpp",
               "RelativeToolTip": "Proyecto2 de progra\\RouteList.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAFEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-28T16:01:34.058Z"
+              "WhenOpened": "2024-10-28T16:01:34.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp",
               "RelativeDocumentMoniker": "Proyecto2 de progra\\main.cpp",
               "ToolTip": "C:\\Users\\mcfra\\Desktop\\Proyecto2 de progra\\Proyecto2 de progra\\main.cpp",
               "RelativeToolTip": "Proyecto2 de progra\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-08T19:17:08.155Z",
               "EditorCaption": ""

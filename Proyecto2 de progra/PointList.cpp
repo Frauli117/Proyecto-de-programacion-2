@@ -37,3 +37,7 @@ void PointList::displayPoints() {
         current = current->getNext();
     }
 }
+
+PointNode* PointList::getHead() {
+    return head;
+}

@@ -12,5 +12,6 @@ public:
 	void insertPoint(string name, int x, int y);
 	bool isRepeatedname(string name);
 	void displayPoints();
+	PointNode* getHead();
 };
 
