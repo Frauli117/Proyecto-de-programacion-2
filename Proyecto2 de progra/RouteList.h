@@ -9,10 +9,9 @@ public:
 	RouteList();
 	void insertRoute(string name);
 	RouteNode* searchRoute(string name);
-	bool isUniqueName(string name);
-	void insertPointToRoute(const string& routeName, const string& pointName, int x, int y);
-	void removeRoute(string name);
-	void displayRoutes();
+	bool isUniquePointName(string name);
+	void insertPointToRoute(const string& routeName, const string& pointName, int x, int y, sf::Color color);
+	void removeRoute(string& name);
 	RouteNode* getHead();
 };
 

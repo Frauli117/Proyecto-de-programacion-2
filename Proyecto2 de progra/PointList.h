@@ -9,9 +9,9 @@ private:
 public:
 
 	PointList();
-	void insertPoint(string name, int x, int y);
-	bool isRepeatedname(string name);
-	void displayPoints();
+	void insertPoint(string name, int x, int y, sf::Color color);
+	bool isUniqueName(string name);
+	void removePoint(const string& pointName);
 	PointNode* getHead();
 };
 

@@ -4,8 +4,8 @@ PointList::PointList() {
 	this->head = nullptr;
 }
 
-void PointList::insertPoint(string name, int x, int y) {
-    PointNode* newNode = new PointNode(name, x, y);
+void PointList::insertPoint(string name, int x, int y, sf::Color color) {
+    PointNode* newNode = new PointNode(name, x, y, color);
     if (head == nullptr) {
         head = newNode;
     }
@@ -19,7 +19,7 @@ void PointList::insertPoint(string name, int x, int y) {
     }
 }
 
-bool PointList::isRepeatedname(string name) {
+bool PointList::isUniqueName(string name) {
     PointNode* current = head;
     while (current != nullptr) {
         if (current->getName() == name) {
@@ -30,12 +30,28 @@ bool PointList::isRepeatedname(string name) {
     return true;
 }
 
-void PointList::displayPoints() {
+void  PointList::removePoint(const string& pointName) {
     PointNode* current = head;
+    PointNode* previous = nullptr;
+
     while (current != nullptr) {
-        std::cout << current->getName() << ", ";
+        if (current->getName() == pointName) {
+            // Si es el primer nodo
+            if (previous == nullptr) {
+                head = current->getNext();
+            }
+            else {
+                previous->setNext(current->getNext());
+            }
+
+            delete current;
+            cout << "Punto eliminado: " << pointName << endl;
+            return;
+        }
+        previous = current;
         current = current->getNext();
     }
+    cout << "No se encontró el punto: " << pointName << endl;
 }
 
 PointNode* PointList::getHead() {

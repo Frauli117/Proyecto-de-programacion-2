@@ -30,10 +30,10 @@ RouteNode* RouteList::searchRoute(string name) {
     return nullptr;
 }
 
-bool RouteList::isUniqueName(string name) { //Cambiar nombre
+bool RouteList::isUniquePointName(string name){
     RouteNode* current = head;
     while (current != nullptr) {
-        if (!current->getPointList().isRepeatedname(name)) {
+        if (!current->getPointList().isUniqueName(name)) {
             return false;
         }
         current = current->getNext();
@@ -41,12 +41,11 @@ bool RouteList::isUniqueName(string name) { //Cambiar nombre
     return true;
 }
 
-void RouteList::insertPointToRoute(const string& routeName, const string& pointName, int x, int y) {
-    RouteNode* route = this->searchRoute(routeName);
+void RouteList::insertPointToRoute(const string& routeName, const string& pointName, int x, int y, sf::Color color) {
+    RouteNode* route = searchRoute(routeName);
     if (route != nullptr) {
-        // Validar que el nombre del punto sea único
-        if (route->getPointList().isRepeatedname(pointName)) {
-            route->getPointList().insertPoint(pointName, x, y);
+        if (route->getPointList().isUniqueName(pointName)) {
+            route->getPointList().insertPoint(pointName, x, y, color);
             cout << "Punto agregado: " << pointName << " en (" << x << ", " << y << ")" << endl;
         }
         else {
@@ -58,33 +57,29 @@ void RouteList::insertPointToRoute(const string& routeName, const string& pointN
     }
 }
 
-void RouteList::removeRoute(string name) {
+void RouteList::removeRoute(string& name) {
     if (head == nullptr) return;
 
     if (head->getName() == name) {
         RouteNode* temp = head;
         head = head->getNext();
+        if (head != nullptr) { 
+            head->setPrev(nullptr);
+        }
         delete temp;
         return;
     }
 
     RouteNode* current = head->getNext();
-
     while (current != nullptr) {
         if (current->getName() == name) {
+            if (current->getNext() != nullptr) {
+                current->getNext()->setPrev(current->getPrev());
+            }
             current->getPrev()->setNext(current->getNext());
-            current->getNext()->setPrev(current->getPrev());
             delete current;
             return;
         }
-        current = current->getNext();
-    }
-}
-
-void RouteList::displayRoutes() {
-    RouteNode* current = head;
-    while (current != nullptr) {
-        std::cout << current->getName() << ", ";
         current = current->getNext();
     }
 }
